@@ -1,5 +1,6 @@
-# 50 Days 50 States 50 Trails 50 Foods
+# 50 States 50 Days 50 Trails 50 Foods
 Testing for a [map](https://joshstoneback.github.io/test_for_trip_map/) visiting 50 trails and 50 foods in 50 states in 50 days (one day per state)
 
 Logic currently exists for the continental 48 states and a feasible path has been found. The R files used to find the [optimal route](routefinding.R) and to [create the map](mapmaking.R) are included in this repo. Full spreadsheets containing route logic can be found [here](https://docs.google.com/spreadsheets/d/1mhLWiejAGk390WBEuERUoYQrOc8j0HNhY4rHSdHxjaA/edit?usp=sharing). The 50 food locations came from [this list](https://www.foodnetwork.com/restaurants/packages/best-food-in-america/photos/what-to-eat-georgia). The distance matrix was created using generative AI and may contain inaccuracies, though I have found it to be fairly reliable thus far.
 
+Please reach out if you have doubts about the feasibility of this trip. Barring inclement weather, the only barrier from this trip being feasible I can find is lining up the open status of restaurants. For this trip to be attempted in 50 days, a few food locations would likely have to be shifted to similar locations that are open. This was already done in the case of Texas and Mississippi to even approach feasibility.
