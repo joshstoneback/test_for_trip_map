@@ -13,7 +13,7 @@ mat_data <- as.matrix(time_matrix_df[, -1])
 rownames(mat_data) <- time_matrix_df[[1]]
 colnames(mat_data) <- colnames(time_matrix_df)[-1]
 
-# 3. get unique 48 continental states
+# get unique 48 continental states
 continental_states <- unique(loc_directory$State)
 n_states <- length(continental_states)
 
